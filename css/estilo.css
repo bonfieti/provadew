@@ -1,0 +1,14 @@
+button {
+    margin: 10px;
+    background-color: cornflowerblue;
+    font-size: medium;
+    height: 50px;
+    width: 60px;
+}
+#imgcri{
+    display: block;
+}
+
+#B1{
+    display: block;
+}

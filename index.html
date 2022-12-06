@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>pt1dew</title>
+
+</head>
+<body>
+    <h1 id="muda">CELLBIT</h1>
+    <button type="button" onclick="document.getElementById('muda').innerHTML = 'PESSOA INCRÍVEL!'" id="B1">oq ele é?</button>
+    <img src="celbo.jpg" width="400px" height="400px" id="img">
+    <div id="text">Rafael Lange nasceu em Carazinho - RS, no dia 11 de fevereiro de 1997, mais conhecido como Cellbit ou Cellbits,<br>
+         é um produtor de jogos, escritor, youtuber e streamer conhecido por solucionar enigmas em seu canal do YouTube e pela criação e <br>
+        realização da série de RPGs de mesa Ordem Paranormal em seu canal da Twitch.</div>
+
+    <button type="button" onclick="document.getElementById('text').style.color = 'green'">cor</button>
+    <button type="button" onclick="document.getElementById('text').style.display = 'none'">ocultar</button>
+    <button type="button" onclick="document.getElementById('text').style.display = 'block'">mostrar</button>
+
+    
+    <button onclick="alterarImagem();">crescer</button>
+    <button onclick="document.getElementById('img').style.width = '100px'">P</button>
+    <button onclick="document.getElementById('img').style.width = '300px'">M</button>
+    <button onclick="document.getElementById('img').style.width = '500px'">G</button>
+    
+    <img src="criança.png" alt="" id="imgcri">
+</body>
+<script src="js/script.js"></script>
+</html>
